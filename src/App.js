@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import List from './components/List'
+import Item from './components/List'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <List itemList={["Get Milk", "Say hi to friends", "Buy Amazon"]}/>
+        <List itemList={["Get Milk", "Say hi to friends", "Buy Amazon"]} />
+        <Item itemList={["Get Milk", "Say hi to friends", "Buy Amazon"]}/>
       </header>
     </div>
   );
