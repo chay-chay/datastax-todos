@@ -12,7 +12,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <List itemList={["Get Milk", "Say hi to friends", "Buy Amazon"]} />
-        <Item itemList={["Get Milk", "Say hi to friends", "Buy Amazon"]}/>
+        <List itemList={["Get Bread", "Get Eggs"]}/>
       </header>
     </div>
   );
